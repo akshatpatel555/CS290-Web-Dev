@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Math</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Magic Math</h1>
+        <div id="scoreboard">
+            <div>Goal: <span id="goal">39</span></div>
+            <div>Wins: <span id="wins">0</span> | Losses: <span id="losses">0</span></div>
+        </div>
+        <div id="numbers">
+            <button class="number" data-value="7">7</button>
+            <button class="number" data-value="2">2</button>
+            <button class="number" data-value="10">10</button>
+            <button class="number" data-value="6">6</button>
+        </div>
+        <div id="operators">
+            <button class="operator" data-op="+">+</button>
+            <button class="operator" data-op="-">-</button>
+            <button class="operator" data-op="*">*</button>
+        </div>
+        <h3>Work Area</h3>
+        <textarea id="calculation" rows="10" cols="30"></textarea>
+        <button id="new-game">New Game</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

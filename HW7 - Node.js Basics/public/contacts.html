@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Patel</title>
+</head>
+<body>
+    <header>
+        <h1>Akshat Patel</h1>
+    </header>
+    <nav>
+        <li><a href="contacts.html" target="_blank">Contacts</a></li>
+        <li><a href="interests.html" target="_blank">Interests</a></li>
+        <li><a href="index.html" target="_blank">Index</a></li>
+        <li><a href="style.html" target="_blank">Style</a></li>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact</h2>
+            <p>Use this form to get in touch with me.</p>
+            <article>
+                <form action="/submit" method="post">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="name" class="required">Name:</label>
+                        <input type="text" name="name" id="name" required placeholder="Your Name" autofocus>
+                        <label for="email" class="required">Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Your Email" autofocus>
+                        <label for="message" class="required">Message:</label>
+                        <textarea name="message" id="message" required placeholder="Your Message"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>How did you hear about me?</legend>
+                        <label for="referrer">Referrer:</label>
+                        <select name="referrer" id="referrer">
+                            <option value="Instagram">Instagram</option>
+                            <option value="Friend">Friend</option>
+                            <option value="Advertisement">Advertisement</option>
+                            <option value="Discord">Discord</option>
+                            <option value="Other" selected>Other</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>How likely are you to recommend this website to a friend?</legend>
+                        <input type="radio" name="recs" id="yes" value="Very Likely">
+                        <label for="yes">Very Likely</label>
+                        <input type="radio" name="recs" id="maybe" value="Maybe">
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" name="recs" id="no" value="Not very likely">
+                        <label for="no">Not very likely</label>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>All rights reserved. 04/09/2024, CS290 Web Development, Oregon State University.</p>
+    </footer>
+</body>
+</html>

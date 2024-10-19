@@ -1,0 +1,179 @@
+body {
+    background-image: url('./images/background.jpg');
+    margin: 12;
+    padding: 18;
+    max-width: 80%;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Heading and Paragraph Styling */
+h1 {
+    font-size: 5;
+    color: red;
+}
+h2 {
+    font-size: 4;
+    color: green;
+}
+h3 {
+    font-size: 3;
+    color: blue;
+}
+p {
+    font-size: 2;
+    color: goldenrod;
+}
+
+/* Nav Element Styling */
+nav {
+    background-color: #a25555;
+    border: 1px solid #713e3e;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 10;
+    padding: 2;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #65a86e;
+    padding: 10px 20px;
+    display: block;
+}
+nav ul li a:hover, nav ul li .active {
+    background-color: #905c8b;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+figure {
+    border: 1px solid #679744;
+    padding: 5px;
+    text-align: center;
+}
+figcaption {
+    color: #935c8d;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #eee;
+}
+
+/* Form Styling */
+fieldset {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+legend {
+    color: #444;
+    padding: 5px;
+    font-weight: bold;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+input, button, textarea, select {
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    width: 95%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+/* Focus Styles */
+input:focus, textarea:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Placeholder Text Styles */
+::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+/* Required Fields Styles */
+:required {
+    border-color: #f00;
+}
+:required:focus {
+    border-color: #0f0;
+}
+
+/* List Styling */
+ol {
+    list-style-type: decimal;
+    color: #261574;
+    padding: 10px;
+}
+
+/* Div and Span Styling */
+div.special {
+    background-color: #efefef;
+    padding: 10px;
+    margin-top: 20px;
+}
+span.highlight {
+    background-color: #aa00ff;
+    font-weight: bold;
+}
+
+/* Pseudo Styling */
+a::after{
+    padding-right: 5px;
+    border-color: blue;
+}
+
+/* Class Styling */
+.article {
+    box-shadow: 0 4px 8px #d01992;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* ID Styling */
+#main-header {
+    background-color: #fefefe;
+}
